@@ -7,8 +7,10 @@
 .calculator{
     display: flex;
     flex-direction: column;
-    background: rgb(162, 72, 54);
-    border:.25rem solid rgb(162, 72, 54);
+    background:  rgb(182, 96, 78);
+    padding: .25rem;
+    border-right:.25rem solid rgb(162, 72, 54);
+    border-bottom:.25rem solid rgb(162, 72, 54);
     border-radius: 1rem;
 }
 .row{
@@ -20,16 +22,22 @@
     width: 25%;
     height: 3rem;
     background-color: rgb(123, 213, 231);
-    border:.025rem solid rgb(162, 72, 54);
+    border:.025rem solid rgb(182, 96, 78);
+    border-right:.12rem solid rgb(162, 72, 54);
+    border-bottom:.12rem solid rgb(162, 72, 54);
     border-radius: 1rem;
+    margin:.1rem;
 }
 .display{
     width: 75%;
     overflow: scroll;
     background-color: rgb(213, 231, 123);
-    border:.025rem solid rgb(182, 96, 78);
+    border-right:.12rem solid rgb(162, 72, 54);
+    border-bottom:.12rem solid rgb(162, 72, 54);
 }
 .operator{
     background-color: rgb(147, 237, 255);
     border:.025rem solid rgb(182, 96, 78);
+    border-right:.12rem solid rgb(162, 72, 54);
+    border-bottom:.12rem solid rgb(162, 72, 54);
 }
