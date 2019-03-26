@@ -1,0 +1,25 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: rgb(59, 59, 59) ;
+    width: 80%;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    border:.25rem solid rgb(235, 225, 153);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.button{
+    width: 25%;
+    height: 3rem;
+    background-color: rgb(123, 213, 231);
+    border-color:rgb(235, 225, 153);
+}
+.input{
+    width: 75%;
+}
