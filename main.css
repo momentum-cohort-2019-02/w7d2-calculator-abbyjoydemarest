@@ -7,7 +7,9 @@
 .calculator{
     display: flex;
     flex-direction: column;
+    background: rgb(162, 72, 54);
     border:.25rem solid rgb(162, 72, 54);
+    border-radius: 1rem;
 }
 .row{
     display: flex;
@@ -19,6 +21,7 @@
     height: 3rem;
     background-color: rgb(123, 213, 231);
     border:.025rem solid rgb(162, 72, 54);
+    border-radius: 1rem;
 }
 .input{
     width: 75%;
