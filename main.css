@@ -25,6 +25,9 @@
 }
 .display{
     width: 75%;
+    overflow: scroll;
+    background-color: rgb(213, 231, 123);
+    border:.025rem solid rgb(182, 96, 78);
 }
 .operator{
     background-color: rgb(147, 237, 255);
