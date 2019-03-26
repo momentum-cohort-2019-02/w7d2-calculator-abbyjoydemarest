@@ -7,7 +7,7 @@
 .calculator{
     display: flex;
     flex-direction: column;
-    border:.25rem solid rgb(235, 225, 153);
+    border:.25rem solid rgb(162, 72, 54);
 }
 .row{
     display: flex;
@@ -18,7 +18,7 @@
     width: 25%;
     height: 3rem;
     background-color: rgb(123, 213, 231);
-    border-color:rgb(235, 225, 153);
+    border:.025rem solid rgb(162, 72, 54);
 }
 .input{
     width: 75%;
