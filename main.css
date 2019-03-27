@@ -2,17 +2,19 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2rem;
     color: rgb(59, 59, 59) ;
-    width: 80%;
+    width: 667;
     outline: none;
 }
 .calculator{
     display: flex;
     flex-direction: column;
+    width: 40%;
     background:  rgb(182, 96, 78);
     padding: .25rem;
     border-right:.25rem solid rgb(162, 72, 54);
     border-bottom:.25rem solid rgb(162, 72, 54);
     border-radius: 1rem;
+    margin: 2rem;
 }
 .row{
     display: flex;
