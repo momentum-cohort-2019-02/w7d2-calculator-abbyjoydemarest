@@ -1,8 +1,9 @@
 'use strict'
-let red = 127
-let green = 127
-let blue = 127
+//let red = 127
+//let green = 127
+//let blue = 127
 let newRgb
+let newRgba
 let answer = 0
 let display = ''
 let input
@@ -47,7 +48,7 @@ document.querySelector('.button1').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button2').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 170, 255)"
+    newRgb = "rgb(119, 119, 255)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(2)
@@ -56,7 +57,7 @@ document.querySelector('.button2').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button3').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 255, 170)"
+    newRgb = "rgb(119, 119, 119)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(3)
@@ -74,7 +75,7 @@ document.querySelector('.button4').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button5').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 85, 255)"
+    newRgb = "rgb(63, 63, 255)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(5)
@@ -83,7 +84,7 @@ document.querySelector('.button5').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button6').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 255, 85)"
+    newRgb = "rgb(63, 63, 63)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(6)
@@ -101,9 +102,9 @@ document.querySelector('.button7').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button8').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 0, 255)"
+    newRgba = "rgba(0, 0, 255)"
     console.log(newRgb)
-    document.body.style.backgroundColor = newRgb
+    document.body.style.backgroundColor = newRgba
     console.log(8)
     document.querySelector('.display').innerText += 8
     input = 8
