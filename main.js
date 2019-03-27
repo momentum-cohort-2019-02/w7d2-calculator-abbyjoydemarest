@@ -10,6 +10,12 @@ function addValueToDisplay(input) {
     console.log(display)
     return display
 }
+function doTheMath(display) {
+    answer = eval(display)
+    document.querySelector('.display').innerText = answer
+    return answer
+}
+
 
 
 document.querySelector('.button0').addEventListener('click', function (event) {
@@ -105,9 +111,11 @@ document.querySelector('.decimal').addEventListener('click', function (event) {
 document.querySelector('.buttonClear').addEventListener('click', function (event) {
     console.log('clear')
     document.querySelector('.display').innerText = ''
+    display.splice(display)
 })
 document.querySelector('.equal').addEventListener('click', function (event) {
     console.log('=')
-    document.querySelector('.display').innerText = '='
+    document.querySelector('.display').innerText = ''
+    doTheMath(display)
     //then evaluate the display
 })
