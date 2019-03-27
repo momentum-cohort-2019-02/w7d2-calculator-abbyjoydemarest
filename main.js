@@ -1,7 +1,6 @@
 'use strict'
 
-let number1 = 0
-let number2 = 0
+
 let answer = 0
 let display = ''
 let input
@@ -15,8 +14,6 @@ function doTheMath(display) {
     document.querySelector('.display').innerText = answer
     return answer
 }
-
-
 
 document.querySelector('.button0').addEventListener('click', function (event) {
     console.log("pushed 0 button", 0)
@@ -111,11 +108,11 @@ document.querySelector('.decimal').addEventListener('click', function (event) {
 document.querySelector('.buttonClear').addEventListener('click', function (event) {
     console.log('clear')
     document.querySelector('.display').innerText = ''
-    display.splice(display)
+    display = ''
 })
 document.querySelector('.equal').addEventListener('click', function (event) {
     console.log('=')
     document.querySelector('.display').innerText = ''
     doTheMath(display)
-    //then evaluate the display
+    display = ''
 })
