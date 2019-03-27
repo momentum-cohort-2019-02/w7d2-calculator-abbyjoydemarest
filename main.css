@@ -3,6 +3,7 @@
     font-size: 2rem;
     color: rgb(59, 59, 59) ;
     width: 80%;
+    outline: none;
 }
 .calculator{
     display: flex;
