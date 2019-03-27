@@ -22,7 +22,7 @@ function doTheMath(display) {
 function changeButtonColor(button) {
     console.log(newRgb)
     if (button === '.button0') {
-        newRgb = "rgb(119, 255, 255)"
+        newRgb = "rgb(123, 213, 231)"
         console.log(newRgb)
         return document.body.style.backgroundColor = newRgb
     }
@@ -39,7 +39,7 @@ document.querySelector('.button0').addEventListener('click', function (event) {
 
 },)
 document.querySelector('.button1').addEventListener('click', function (event) {
-    newRgb = "rgb(127, 255, 255)"
+    newRgb = "rgb(111, 201, 219)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(1)
@@ -48,7 +48,7 @@ document.querySelector('.button1').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button2').addEventListener('click', function (event) {
-    newRgb = "rgb(119, 119, 255)"
+    newRgb = "rgb(109, 189, 207)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(2)
@@ -57,7 +57,7 @@ document.querySelector('.button2').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button3').addEventListener('click', function (event) {
-    newRgb = "rgb(119, 119, 119)"
+    newRgb = "rgb(97, 177, 195)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(3)
@@ -66,7 +66,7 @@ document.querySelector('.button3').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button4').addEventListener('click', function (event) {
-    newRgb = "rgb(63, 255, 255)"
+    newRgb = "rgb(85, 165, 193)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(4)
@@ -75,7 +75,7 @@ document.querySelector('.button4').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button5').addEventListener('click', function (event) {
-    newRgb = "rgb(63, 63, 255)"
+    newRgb = "rgb(83, 153, 181)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(5)
@@ -84,7 +84,7 @@ document.querySelector('.button5').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button6').addEventListener('click', function (event) {
-    newRgb = "rgb(63, 63, 63)"
+    newRgb = "rgb(71, 141, 169)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(6)
@@ -93,7 +93,7 @@ document.querySelector('.button6').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button7').addEventListener('click', function (event) {
-    newRgb = "rgb(0, 255, 255)"
+    newRgb = "rgb(59, 129, 157) "
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(7)
@@ -102,7 +102,7 @@ document.querySelector('.button7').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button8').addEventListener('click', function (event) {
-    newRgba = "rgba(0, 0, 255)"
+    newRgba = "rgba(47, 117, 145)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgba
     console.log(8)
@@ -111,7 +111,7 @@ document.querySelector('.button8').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.button9').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 255, 0)"
+    newRgb = "rgb(35, 105, 145)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(9)
@@ -120,7 +120,8 @@ document.querySelector('.button9').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.add').addEventListener('click', function (event) {
-    newRgb = "rgb(85, 170, 255)"
+    213, 231, 123
+    newRgb = "rgb(188, 206, 98)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log('+')
@@ -129,7 +130,7 @@ document.querySelector('.add').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.sub').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 170, 85)"
+    newRgb = "rgb(163, 181, 73)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(' - ')
@@ -138,7 +139,7 @@ document.querySelector('.sub').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.multiply').addEventListener('click', function (event) {
-    newRgb = "rgb(15, 17, 255)"
+    newRgb = "rgb(138, 156, 48)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(' x ')
@@ -147,7 +148,7 @@ document.querySelector('.multiply').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.divide').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 170, 255)"
+    newRgb = "rgb(113, 131, 23)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log(' / ')
@@ -156,7 +157,7 @@ document.querySelector('.divide').addEventListener('click', function (event) {
     addValueToDisplay(input)
 })
 document.querySelector('.decimal').addEventListener('click', function (event) {
-    newRgb = "rgb(225, 170, 255)"
+    newRgb = "rgb(23, 93, 133)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log('.')
@@ -173,7 +174,7 @@ document.querySelector('.buttonClear').addEventListener('click', function (event
     display = ''
 })
 document.querySelector('.equal').addEventListener('click', function (event) {
-    newRgb = "rgb(0, 0, 0)"
+    newRgb = "rgb(213, 231, 123)"
     console.log(newRgb)
     document.body.style.backgroundColor = newRgb
     console.log('=')
